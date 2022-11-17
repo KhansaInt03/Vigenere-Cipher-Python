@@ -54,5 +54,3 @@ def vigenere_decrypt():
     plain_alpha = [ k for i in plain_ord for k,v in ord_dict.items() if i == v ]
     print('Plaintext:',*plain_alpha, sep='')
 
-vigenere_encrypt()
-vigenere_decrypt()
